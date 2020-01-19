@@ -1,0 +1,54 @@
+baseURL = "https://avr.ink/"
+languageCode = "en-us"
+title = "Amal V R"
+theme = "ink"
+paginate = 5
+
+copyright = "2020© Copyright Amal Rajeev"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "ink"
+
+[params]
+	subtitle = "Crisp, !minimal poems by Amal"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[params.social]]
+name = "Facebook"
+icon = "facebook"
+url = "https://github.com/knadh/ink"
+
+[taxonomies]
+   tag = "tags"
